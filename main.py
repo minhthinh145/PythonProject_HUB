@@ -38,6 +38,8 @@ class BorrowRecord:
          return f"{self.id} - {self.student_id} - {self.book_id} - {self.borrow_date} - {self.due_date} - {self.status}"
 
 STUDENS = []
+
+#region Đọc dữ liệu từ file csv
 # Đọc dữ liệu từ file Students.csv
 with open("Students.csv", "r", encoding="utf-8") as file:
     reader = csv.reader(file)
@@ -67,7 +69,9 @@ with open("borrow.csv", "r", encoding="utf-8") as file:
     for row in reader:
         borrow_record = BorrowRecord(*row)
         BORROW_RECORDS.append(borrow_record)
-#Helpers
+#endregion
+
+#region Helpers For Book
 def writeBooksToFile(newBook) :
     with open("books.csv", mode="a", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
@@ -78,17 +82,66 @@ def saveBOOKSToFile():
         writer.writerow(["ID", "Title", "Author", "Year", "Category", "Quantity"]) 
         for book in BOOKS:
             writer.writerow([book.id, book.title, book.author, book.year, book.category, book.quantity])               
-#
-#...
+#endregion
+
+#region Helpers for Student
+def writeStudentToFile(newStudent) :
+    with open("Students.csv", mode ="a", newline =" ", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow([newStudent.id,newStudent.name,newStudent.class_name,newStudent.faculty])
+
+def saveStudentsToFile() :
+    with open("Students.csv" , "w",newline ="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        #ID,Name,Class,Faculty
+        writer.writerow(["ID","Name","Class","Faculty"])
+        for newStudent in STUDENS:
+            writer.writerow([newStudent.id,newStudent.name,newStudent.class_name,newStudent.faculty])
+
+#endregion
+
+#region Quản lý học sinh
 def add_student() :
-    pass
+    global STUDENS
+    #self, id, name, class_name, faculty
+    print("Điền các thông tin của học sinh cần thêm :")
+    id = input("Nhập ID của học sinh :")
+    name = input("Nhập tên của học sinh :")
+    class_name = input("Nhập lớp của học sinh :")
+    faculty = input("Nhập ngành học của học sinh")
+    newStudent = Student(id,name,class_name,faculty)
+    STUDENS.append(newStudent)
+    writeStudentToFile(newStudent)
 
 def update_student() :
-    pass
+    global STUDENS
+    stu_id = input("Nhập ID của sinh viên cần được sửa: ")
+    for stu in STUDENS:
+        if stu.id == stu_id:
+            print("Sửa thông tin sinh viên :", stu.name)
+            print("Nếu không muốn thay đổi thông tin nào thì ấn Enter để qua thuộc tính tiếp theo")
+            stu.name = input(f"Tên sinh viên ({stu.name}): ") or stu.name
+            stu.class_name = input(f"Tên lớp ({stu.class_name}): ") or stu.class_name
+            stu.faculty = input(f"Ngành học ({stu.faculty}): ") or stu.faculty
+            saveStudentsToFile()
+            print("Sách đã được sửa")
+            return
+    print("Không tìm thấy học sinh có ID:", stu_id)
 
 def delete_student() :
-    pass 
-#region book
+    global STUDENS
+    stu_id  = input("Nhập ID của sinh viên cần xóa :")
+    for stu in STUDENS :
+        if(stu.id  == stu_id) :
+            print("Xóa sinh viên : " + stu.id + "có tên : " + stu.name)
+            STUDENS.remove(stu)
+            saveStudentsToFile()
+            return
+        else : print("Không tìm thấy học sinh có id : "  + stu_id)
+
+#endregion
+
+#region Quản lý sách
 def add_book() :
     global BOOKS  
     #ID,Title,Author,Year,Category,Quantity
@@ -251,6 +304,15 @@ def Request3():
         BOOKS = mergeSort
 
     saveBOOKSToFile()
+#endregion
+
+#region Quản lý mượn sachá
+def borrowBook() :
+    pass
+
+def returnBorrowBook() :
+    pass
+
 #endregion
 def main() :
     #TODO : add 10 student
