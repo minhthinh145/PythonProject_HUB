@@ -1,0 +1,5 @@
+id,student_id,book_id,borrow_date,due_date,return_date,status
+1,S1,B1,2025-04-12,2025-04-15,,borrowed
+2,S1,B1,2025-04-12,2025-04-15,,borrowed
+3,S1,B2,2025-04-12,2025-04-15,,borrowed
+4,S1,B1,2025-04-12,2025-04-15,,borrowed

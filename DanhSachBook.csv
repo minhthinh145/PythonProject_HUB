@@ -1,0 +1,101 @@
+﻿id,title,author,year,category,quality,quantity
+BOOK-073,An toan thong tin,Nguyen Van An,2018,Lich su,3.5,5
+BOOK-081,Bao mat mang,Tran Minh Duc,2010,Kinh te,4.1,5
+BOOK-034,Bi mat tam ly hoc,Le Hoang Phuong,2011,Nghe thuat,4.4,5
+BOOK-086,Bi quyet thanh cong,Pham Van Khoi,2015,Khoa hoc,3.8,3
+BOOK-026,Blockchain va tien Dien tu,Dang Thanh Hai,2019,Triet hoc,3.8,1
+BOOK-028,Cach mang cong nghiep 4.0,Vu Hong Quan,2021,Tam ly hoc,4.4,1
+BOOK-009,Chien luoc kinh doanh,Nguyen Thanh Nam,2018,Khoa hoc,4.1,5
+BOOK-058,Chien luoc tiep thi so,Tran Ngoc Bao,2019,Khoa hoc,4.4,5
+BOOK-002,Chien tranh the gioi,Le Huu Trung,2011,Khoa hoc,3.8,2
+BOOK-036,Chu nghia hien sinh,Nguyen Hai Dang,2013,Cong nghe,5.0,3
+BOOK-040,Chung khoan va Dau tu,Phan Duc Thinh,2017,Triet hoc,4.4,1
+BOOK-085,Chuyen Doi so trong doanh nghiep,Luong The Vinh,2014,Cong nghe,3.5,5
+BOOK-016,Co so du lieu,Hoang Nam Son,2025,Khoa hoc,4.4,5
+BOOK-050,Co so du lieu,Nguyen Van Hung,2011,Cong nghe,3.8,5
+BOOK-056,Cong nghe thuc te ao,Tran Thi Minh,2017,Tam ly hoc,3.8,3
+BOOK-074,Cong nghe va Doi moi,Nguyen Duc Thao,2019,Kinh te,3.8,2
+BOOK-090,Cong nghe xe tu lai,Vu Van Long,2019,Nghe thuat,5.0,4
+BOOK-054,Dao Duc trong AI,Hoang Thanh Tung,2015,Triet hoc,5.0,4
+BOOK-004,Dau tu thong minh,Ngo Quang Huy,2013,Kinh te,4.4,4
+BOOK-091,Doi moi sang tao trong giao duc,Le Quang Minh,2020,Tam ly hoc,3.5,2
+BOOK-023,Giai tich toan hoc,Nguyen Van An,2016,Khoa hoc,4.7,4
+BOOK-071,Gioi thieu ve khoa hoc may tinh,Tran Minh Duc,2016,Cong nghe,4.7,5
+BOOK-088,Hanh vi tieu dung,Le Hoang Phuong,2017,Kinh te,4.4,3
+BOOK-098,He thong Dieu khien,Pham Van Khoi,2011,Tam ly hoc,3.8,1
+BOOK-076,He thong nhung,Dang Thanh Hai,2021,Nghe thuat,4.4,4
+BOOK-077,Hoc may nang cao,Vu Hong Quan,2022,Tam ly hoc,4.7,4
+BOOK-055,Hoc sau voi Python,Nguyen Thanh Nam,2016,Nghe thuat,3.5,1
+BOOK-092,Hoc tap suot Doi,Tran Ngoc Bao,2021,Cong nghe,3.8,5
+BOOK-014,Kham pha vu tru,Le Huu Trung,2023,Tam ly hoc,3.8,4
+BOOK-045,Khoa hoc du lieu,Nguyen Hai Dang,2022,Lich su,4.1,4
+BOOK-008,Khoa hoc moi truong,Phan Duc Thinh,2017,Cong nghe,3.8,3
+BOOK-094,Khoa hoc than kinh,Luong The Vinh,2023,Lich su,4.4,1
+BOOK-049,Khoa hoc va cuoc song,Hoang Nam Son,2010,Tam ly hoc,3.5,2
+BOOK-030,Kien truc phan mem,Nguyen Van Hung,2023,Khoa hoc,5.0,5
+BOOK-033,Kinh te hoc vi mo,Tran Thi Minh,2010,Triet hoc,4.1,4
+BOOK-075,Ky nang Dam phan,Nguyen Duc Thao,2020,Triet hoc,4.1,1
+BOOK-068,Ky nang giao tiep,Vu Van Long,2013,Triet hoc,3.8,3
+BOOK-064,Ky thuat Dien tu,Hoang Thanh Tung,2025,Cong nghe,4.4,4
+BOOK-097,Ky thuat xay dung,Ngo Quang Huy,2010,Nghe thuat,3.5,1
+BOOK-048,Lanh Dao xuat sac,Le Quang Minh,2025,Nghe thuat,5.0,4
+BOOK-041,Lap trinh C#,Nguyen Van An,2018,Nghe thuat,4.7,4
+BOOK-017,Lap trinh C++,Tran Minh Duc,2010,Lich su,4.7,3
+BOOK-011,Lap trinh Java,Le Hoang Phuong,2020,Kinh te,4.7,3
+BOOK-001,Lap trinh Python,Pham Van Khoi,2010,Cong nghe,3.5,4
+BOOK-069,Lap trinh ung dung di Dong,Dang Thanh Hai,2014,Nghe thuat,4.1,1
+BOOK-100,Lap trinh web hien Dai,Vu Hong Quan,2013,Khoa hoc,4.4,1
+BOOK-062,Lich su nghe thuat,Nguyen Thanh Nam,2023,Nghe thuat,3.8,4
+BOOK-015,Lich su nhan loai,Tran Ngoc Bao,2024,Cong nghe,4.1,4
+BOOK-037,Lich su Viet Nam,Le Huu Trung,2014,Khoa hoc,3.5,3
+BOOK-003,Luoc su thoi gian,Nguyen Hai Dang,2012,Lich su,4.1,4
+BOOK-072,Mang may tinh,Phan Duc Thinh,2017,Khoa hoc,5.0,4
+BOOK-010,Marketing hien Dai,Luong The Vinh,2019,Lich su,4.4,2
+BOOK-053,Mo hinh tai chinh,Hoang Nam Son,2014,Kinh te,4.7,3
+BOOK-079,Mo phong va toi uu hoa,Nguyen Van Hung,2024,Khoa hoc,3.5,4
+BOOK-061,My thuat Duong Dai,Tran Thi Minh,2022,Triet hoc,3.5,3
+BOOK-083,Nang luong tai tao,Nguyen Duc Thao,2012,Nghe thuat,4.7,4
+BOOK-018,Nghe thuat dien thuyet,Vu Van Long,2011,Kinh te,5.0,5
+BOOK-013,Nghe thuat lanh Dao,Hoang Thanh Tung,2022,Nghe thuat,3.5,4
+BOOK-039,Nghe thuat lanh Dao,Ngo Quang Huy,2016,Kinh te,4.1,2
+BOOK-035,Nghe thuat viet lach,Le Quang Minh,2012,Tam ly hoc,4.7,5
+BOOK-044,Nhap mon AI,Nguyen Van An,2021,Khoa hoc,3.8,1
+BOOK-031,Nhap mon Dien tu,Tran Minh Duc,2024,Lich su,3.5,1
+BOOK-020,Nhap mon vat ly luong tu,Le Hoang Phuong,2013,Nghe thuat,3.8,4
+BOOK-099,Phan tich chinh sach,Pham Van Khoi,2012,Cong nghe,4.1,5
+BOOK-057,Phan tich du lieu,Dang Thanh Hai,2018,Cong nghe,4.1,1
+BOOK-096,Phat trien ben vung,Vu Hong Quan,2025,Triet hoc,5.0,1
+BOOK-038,Phat trien phan mem,Nguyen Thanh Nam,2015,Lich su,3.8,5
+BOOK-095,Phuong phap day hoc hien Dai,Tran Ngoc Bao,2024,Kinh te,4.7,3
+BOOK-043,Phuong phap nghien cuu,Le Huu Trung,2020,Cong nghe,3.5,4
+BOOK-059,Quan ly du an,Nguyen Hai Dang,2020,Lich su,4.7,5
+BOOK-089,Quan ly tai chinh ca nhan,Phan Duc Thinh,2018,Triet hoc,4.7,1
+BOOK-084,Quan tri nhan su,Luong The Vinh,2013,Tam ly hoc,5.0,1
+BOOK-027,Robot va tri tue nhan tao,Hoang Nam Son,2020,Nghe thuat,4.1,2
+BOOK-032,Sang tao khong gioi han,Nguyen Van Hung,2025,Kinh te,3.8,2
+BOOK-078,Sang tao noi dung so,Tran Thi Minh,2023,Cong nghe,5.0,1
+BOOK-067,Sang tao trong kinh doanh,Nguyen Duc Thao,2012,Kinh te,3.5,5
+BOOK-063,Sinh hoc tien hoa,Vu Van Long,2024,Tam ly hoc,4.1,5
+BOOK-025,Tai chinh ca nhan,Hoang Thanh Tung,2018,Kinh te,3.5,1
+BOOK-022,Tam ly hoc hanh vi,Ngo Quang Huy,2015,Cong nghe,4.4,5
+BOOK-065,Tam ly hoc phat trien,Le Quang Minh,2010,Khoa hoc,4.7,4
+BOOK-021,Thien va Doi song,Nguyen Van An,2014,Tam ly hoc,4.1,1
+BOOK-080,Thiet ke Do hoa so,Tran Minh Duc,2025,Lich su,3.8,2
+BOOK-042,Thiet ke trai nghiem,Le Hoang Phuong,2019,Tam ly hoc,5.0,4
+BOOK-093,Thiet ke tro choi,Pham Van Khoi,2022,Khoa hoc,4.1,5
+BOOK-005,Thiet ke UI/UX,Dang Thanh Hai,2014,Triet hoc,4.7,1
+BOOK-029,Thiet ke web,Vu Hong Quan,2022,Cong nghe,4.7,4
+BOOK-019,Thong ke va xac suat,Nguyen Thanh Nam,2012,Triet hoc,3.5,2
+BOOK-087,Thuong mai Dien tu,Tran Ngoc Bao,2016,Lich su,4.1,2
+BOOK-024,Toi uu hoa thuat toan,Le Huu Trung,2017,Lich su,5.0,2
+BOOK-006,Tri tue nhan tao,Nguyen Hai Dang,2015,Nghe thuat,5.0,1
+BOOK-070,Triet hoc phuong Tay,Phan Duc Thinh,2015,Tam ly hoc,4.4,2
+BOOK-007,Tu duy phan bien,Luong The Vinh,2016,Tam ly hoc,3.5,4
+BOOK-047,Tu duy sang tao,Hoang Nam Son,2024,Triet hoc,4.7,3
+BOOK-046,Tu duy thiet ke,Nguyen Van Hung,2023,Kinh te,4.4,3
+BOOK-066,Ung dung AI trong y hoc,Tran Thi Minh,2011,Lich su,5.0,1
+BOOK-082,Van hoa Doc sach,Nguyen Duc Thao,2011,Triet hoc,4.4,4
+BOOK-060,Van hoa va xa hoi,Vu Van Long,2021,Kinh te,5.0,3
+BOOK-051,Vat ly thien van,Hoang Thanh Tung,2012,Khoa hoc,4.1,1
+BOOK-012,Xu ly du lieu lon,Ngo Quang Huy,2021,Triet hoc,5.0,4
+BOOK-052,Xu ly ngon ngu tu nhien,Le Quang Minh,2013,Lich su,4.4,2

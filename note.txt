@@ -1,0 +1,4 @@
+Luồng data hoạt động :
+Đối vs 1 hàm : cập nhật biến cục bộ ( GLOBAL )
+sau đó chỉnh sửa các attributes của Object trong List
+Sau đó ghi đè lại vào file

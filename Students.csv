@@ -1,21 +1,41 @@
-ID,Name,Class,Faculty
-2201001,Nguyễn Văn A,KTPM-K18,Công nghệ thông tin
-2201002,Trần Thị B,TCKT-K18,Tài chính - Kế toán
-2201003,Lê Hoàng C,NH-K18,Ngân hàng
-2201004,Phạm Minh D,QTKD-K18,Quản trị kinh doanh
-2201005,Hoàng Thanh E,KTPM-K18,Công nghệ thông tin
-2201006,Bùi Văn F,TCKT-K18,Tài chính - Kế toán
-2201007,Đỗ Hữu G,NH-K18,Ngân hàng
-2201008,Nguyễn Thị H,QTKD-K18,Quản trị kinh doanh
-2201009,Vũ Đức I,KTPM-K18,Công nghệ thông tin
-2201010,Trần Quốc J,TCKT-K18,Tài chính - Kế toán
-2201011,Lý Xuân K,NH-K18,Ngân hàng
-2201012,Nguyễn Nhật L,QTKD-K18,Quản trị kinh doanh
-2201013,Trương Tấn M,KTPM-K18,Công nghệ thông tin
-2201014,Ngô Hoàng N,TCKT-K18,Tài chính - Kế toán
-2201015,Đặng Trung O,NH-K18,Ngân hàng
-2201016,Phan Bảo P,QTKD-K18,Quản trị kinh doanh
-2201017,Lâm Chí Q,KTPM-K18,Công nghệ thông tin
-2201018,Dương Hữu R,TCKT-K18,Tài chính - Kế toán
-2201019,Trịnh Khánh S,NH-K18,Ngân hàng
-2201020,Mai Thanh T,QTKD-K18,Quản trị kinh doanh
+id,name,class_name,faculty
+SV25054,Tran Binh An,QT03,Quan tri kinh doanh
+SV70579,Tran Huu Binh,IT03,Cong nghe thong tin
+SV87459,Le Thanh Cuong,KT01,Ke toan - Kiem toan
+SV71176,Pham Quoc Dung,KT03,Ke toan - Kiem toan
+SV38205,Hoang Thi Huong,TC03,Tai chinh - Ngan hang
+SV61273,Dang Minh Huy,IT03,Cong nghe thong tin
+SV78795,Bui Quang Khanh,TC03,Tai chinh - Ngan hang
+SV28367,Vu Anh Lan,TC03,Tai chinh - Ngan hang
+SV65242,Do Ngoc Linh,KT02,Ke toan - Kiem toan
+SV78432,Ho Duy Nam,QT03,Quan tri kinh doanh
+SV88035,Nguyen Minh Nhung,QT02,Quan tri kinh doanh
+SV92877,Tran Huu Phat,TC01,Tai chinh - Ngan hang
+SV93671,Le Thanh Quang,TC02,Tai chinh - Ngan hang
+SV50111,Pham Quoc Son,KT02,Ke toan - Kiem toan
+SV28797,Hoang Thi Trang,TC03,Tai chinh - Ngan hang
+SV78249,"Dang Minh Tuan",KT01,Ke toan - Kiem toan
+SV42649,Bui Quang Tung,KT03,Ke toan - Kiem toan
+SV66223,Vu Anh Van,QT02,Quan tri kinh doanh
+SV43350,Do Ngoc An,IT01,Cong nghe thong tin
+SV60390,Ho Duy Binh,QT02,Quan tri kinh doanh
+SV65923,Nguyen Minh Cuong,KT01,Ke toan - Kiem toan
+SV15426,Tran Huu Duy,TC02,Tai chinh - Ngan hang
+SV26639,Le Thanh Huong,KT02,Ke toan - Kiem toan
+SV36662,Pham Quoc Linh,IT01,Cong nghe thong tin
+SV10573,Hoang Thi Lan,KT03,Ke toan - Kiem toan
+SV51735,Dang Minh Nam,IT01,Cong nghe thong tin
+SV42834,Bui Quang Tuan,TC03,Tai chinh - Ngan hang
+SV17358,Vu Anh Quyen,KT01,Ke toan - Kiem toan
+SV75823,Do Ngoc Son,TC03,Tai chinh - Ngan hang
+SV13853,Ho Duy Khanh,KT02,Ke toan - Kiem toan
+SV21744,Nguyen Minh Trang,KT01,Ke toan - Kiem toan
+SV25886,Tran Huu Tung,KT03,Ke toan - Kiem toan
+SV64963,Le Thanh Tuan,IT02,Cong nghe thong tin
+SV95117,Pham Quoc Van,QT01,Quan tri kinh doanh
+SV20072,Hoang Thi An,QT01,Quan tri kinh doanh
+SV49060,Dang Minh Cuong,QT02,Quan tri kinh doanh
+SV87643,Bui Quang Huy,KT03,Ke toan - Kiem toan
+SV31825,Vu Anh Quang,QT03,Quan tri kinh doanh
+SV51787,Do Ngoc Tung,KT03,Ke toan - Kiem toan
+SV11025,Ho Duy Quyen,IT02,Cong nghe thong tin
